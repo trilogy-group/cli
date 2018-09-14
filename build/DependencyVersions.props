@@ -15,7 +15,7 @@
     <!-- https://github.com/dotnet/cli/issues/9851  -->
     <MicrosoftNETCoreDotNetHostResolverPackageVersion_ForMSBuildSdkResolverOnly>3.0.0-preview1-26816-04</MicrosoftNETCoreDotNetHostResolverPackageVersion_ForMSBuildSdkResolverOnly>
 
-    <MicrosoftBuildPackageVersion>15.9.0-preview-000008</MicrosoftBuildPackageVersion>
+    <MicrosoftBuildPackageVersion>15.9.0-preview-000013</MicrosoftBuildPackageVersion>
     <MicrosoftBuildFrameworkPackageVersion>$(MicrosoftBuildPackageVersion)</MicrosoftBuildFrameworkPackageVersion>
     <MicrosoftBuildRuntimePackageVersion>$(MicrosoftBuildPackageVersion)</MicrosoftBuildRuntimePackageVersion>
     <MicrosoftBuildLocalizationPackageVersion>$(MicrosoftBuildPackageVersion)</MicrosoftBuildLocalizationPackageVersion>
@@ -29,7 +29,7 @@
     <MicrosoftNETSdkPackageVersion>2.2.100-preview1-63215-01</MicrosoftNETSdkPackageVersion>
     <MicrosoftNETBuildExtensionsPackageVersion>$(MicrosoftNETSdkPackageVersion)</MicrosoftNETBuildExtensionsPackageVersion>
     <MicrosoftNETSdkRazorPackageVersion>2.1.1</MicrosoftNETSdkRazorPackageVersion>
-    <MicrosoftNETSdkWebPackageVersion>2.1.400-preview1-20180705-1834985</MicrosoftNETSdkWebPackageVersion>
+    <MicrosoftNETSdkWebPackageVersion>2.1.500</MicrosoftNETSdkWebPackageVersion>
     <MicrosoftNETSdkPublishPackageVersion>$(MicrosoftNETSdkWebPackageVersion)</MicrosoftNETSdkPublishPackageVersion>
     <MicrosoftNETSdkWebProjectSystemPackageVersion>$(MicrosoftNETSdkWebPackageVersion)</MicrosoftNETSdkWebProjectSystemPackageVersion>
     <MicrosoftDotNetCommonItemTemplatesPackageVersion>1.0.2-beta4-20180803-1918431</MicrosoftDotNetCommonItemTemplatesPackageVersion>
@@ -46,7 +46,7 @@
     <MicrosoftDotNetProjectJsonMigrationPackageVersion>1.3.1</MicrosoftDotNetProjectJsonMigrationPackageVersion>
     <MicrosoftDotNetToolsMigrateCommandPackageVersion>$(MicrosoftDotNetProjectJsonMigrationPackageVersion)</MicrosoftDotNetToolsMigrateCommandPackageVersion>
     <MicrosoftDotNetArchivePackageVersion>0.2.0-beta-63027-01</MicrosoftDotNetArchivePackageVersion>
-    <NuGetBuildTasksPackageVersion>4.8.0-rtm.5362</NuGetBuildTasksPackageVersion>
+    <NuGetBuildTasksPackageVersion>4.9.0-preview3.5496</NuGetBuildTasksPackageVersion>
     <NuGetBuildTasksPackPackageVersion>$(NuGetBuildTasksPackageVersion)</NuGetBuildTasksPackPackageVersion>
     <NuGetCommonPackageVersion>$(NuGetBuildTasksPackageVersion)</NuGetCommonPackageVersion>
     <NuGetCommandLineXPlatPackageVersion>$(NuGetBuildTasksPackageVersion)</NuGetCommandLineXPlatPackageVersion>
@@ -63,7 +63,7 @@
     <MicroBuildCorePackageVersion>0.2.0</MicroBuildCorePackageVersion>
     <MSTestVersion>1.3.2</MSTestVersion>
     <XUnitVersion>2.3.1</XUnitVersion>
-    <NUnit3TemplatesVersion>1.5.1</NUnit3TemplatesVersion>
+    <NUnit3TemplatesVersion>1.5.2</NUnit3TemplatesVersion>
   </PropertyGroup>
 
   <!-- NOTE: The property group above is in alignment with orchestrated build version naming conventions. -->
@@ -79,7 +79,7 @@
 
   <!-- infrastructure and test only dependencies -->
   <PropertyGroup>
-    <BuildTasksFeedToolVersion>2.1.0-prerelease-02430-04</BuildTasksFeedToolVersion>
+    <BuildTasksFeedToolVersion>2.1.0-rc1-03130-05</BuildTasksFeedToolVersion>
     <VersionToolsVersion>$(BuildTasksFeedToolVersion)</VersionToolsVersion>
     <DotnetDebToolVersion>2.0.0</DotnetDebToolVersion>
   </PropertyGroup>
