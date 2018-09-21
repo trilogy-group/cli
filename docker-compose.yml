@@ -1,0 +1,9 @@
+version: '3'
+services:
+  dev:
+    command: tail -f /dev/null
+    image: "microsoft/dotnet:2.1.300-sdk"
+    # use the windowservercore image if running with windows containers
+    # image: "microsoft/windowsservercore:1709"
+    volumes:
+     - .:/app:Z
